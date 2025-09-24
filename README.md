@@ -24,17 +24,17 @@ Practical implementation of an **open-source SIEM** in a local environment for e
 - In VirtualBox, go to **File > Import Appliance**.  
 - Select the downloaded `.ova` file.  
 - Review and adjust the hardware settings (CPU, RAM, disk) according to available resources.  
-<img src="https://i.imgur.com/3Z1ypRp.png" height="75%" width="80%"/>
+<img src="https://i.imgur.com/3Z1ypRp.png" height="50%" width="55%"/>
 4. **Start the Wazuh virtual machine.**
 
-<img src="https://i.imgur.com/vynkWp6.png" height="75%" width="70%"/>
+<img src="https://i.imgur.com/vynkWp6.png" height="50%" width="55%"/>
 
 - Username: `wazuh-user`  
 - Password: `wazuh`
   
 ***Validate the IP address assigned to the Wazuh machine using the command: `ip addr`***
  
- <img src="https://i.imgur.com/4lQx3WD.png" height="75%" width="70%"/>
+ <img src="https://i.imgur.com/4lQx3WD.png" height="50%" width="55%"/>
 **Note:** The IP to use is the one identified as `inet` on the `eth0` interface.
 
 
@@ -48,7 +48,7 @@ Practical implementation of an **open-source SIEM** in a local environment for e
 - Password: `admin`
 
 
- <img src="https://i.imgur.com/GYQSldS.png" height="75%" width="70%"/>
+ <img src="https://i.imgur.com/GYQSldS.png" height="55%" width="50%"/>
 
 Once you log in to **Wazuh**, you will have access to multiple resources typical of a **SIEM** and will be able to view each connected agent, as shown in the following image.
 
