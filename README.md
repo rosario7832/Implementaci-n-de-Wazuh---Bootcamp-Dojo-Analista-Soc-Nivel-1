@@ -1,4 +1,4 @@
-# Laboratorio: SIEM con Wazuh
+# Lab: SIEM with Wazuh
 
 ## Description
 Practical implementation of an **open-source SIEM** in a local environment for educational and cybersecurity training purposes.
