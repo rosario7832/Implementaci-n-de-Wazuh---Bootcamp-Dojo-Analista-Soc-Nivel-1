@@ -1,52 +1,57 @@
 # Laboratorio: SIEM con Wazuh
 
-## Descripción
-Implementación práctica de un **SIEM open source** en un entorno local con fines educativos y de capacitación en ciberseguridad.
+## Description
+Practical implementation of an **open-source SIEM** in a local environment for educational and cybersecurity training purposes.
 
-## Objetivos
-- Implementar el SIEM open source **Wazuh** en un entorno local.  
-- Instalar agentes de recolección de logs en equipos/servicios.  
-- Familiarizarse con las principales funcionalidades del SIEM.  
-# Laboratorio: SIEM con Wazuh
+## Objectives
 
-## Parte I - Importar la OVA de Wazuh
+- Implement the **open-source SIEM Wazuh** in a local environment.
+- Install log collection agents on devices or services.
+- Become familiar with the main functionalities of the SIEM.
+   
+# Lab: SIEM with Wazuh
 
-1. **Descargar la OVA desde el sitio oficial de Wazuh:**  
+## Part I - Importing the Wazuh OVA
+
+1.**Download the OVA from the official Wazuh website:**
    👉 [Wazuh Virtual Machine](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
 
-2. **Abrir VirtualBox (o tu software de virtualización preferido).**
+2. **Open VirtualBox (or your preferred virtualization software).**
+   
+**Download VirtualBox from the [official Oracle VirtualBox website](https://www.virtualbox.org/).**
 
-3. **Importar la OVA:**
-   - En VirtualBox, ir a **Archivo > Importar servicio virtualizado**.  
-   - Seleccionar el archivo `.ova` descargado.  
-   - Revisar y ajustar los parámetros de hardware (CPU, RAM, disco) según los recursos disponibles.  
-
-4. **Iniciar la máquina virtual Wazuh.**
+3. **Import the OVA:**
+- In VirtualBox, go to **File > Import Appliance**.  
+- Select the downloaded `.ova` file.  
+- Review and adjust the hardware settings (CPU, RAM, disk) according to available resources.  
+<img src="https://i.imgur.com/3Z1ypRp.png" height="75%" width="80%"/>
+4. **Start the Wazuh virtual machine.**
 
 <img src="https://i.imgur.com/vynkWp6.png" height="75%" width="70%"/>
 
-- Usuario = wazuh-user
-- contraseña = wazuh
+- Username: `wazuh-user`  
+- Password: `wazuh`
   
- ***Validamos la IP que mantiene la máquina de Wazuh con el comando: ip addr***
+***Validate the IP address assigned to the Wazuh machine using the command: `ip addr`***
  
  <img src="https://i.imgur.com/4lQx3WD.png" height="75%" width="70%"/>
- Nota: la IP a utilizar es la identificada como inet en la interfaz eth0
+**Note:** The IP to use is the one identified as `inet` on the `eth0` interface.
 
 
-5. **Acceder a la interfaz web de Wazuh:**  
-   - Una vez la VM esté corriendo, abre el navegador y dirígete a:  
+5. **Access the Wazuh web interface:**
+   - Once the VM is running, open your browser and navigate to:  
      ```
      https://192.168.50.206
      ```
-Credenciales para loguearse como administrador
-   - Usuario = admin  
-   - contraseña = admin
+**Credentials to log in as administrator:**
+- Username: `admin`  
+- Password: `admin`
+
 
  <img src="https://i.imgur.com/GYQSldS.png" height="75%" width="70%"/>
 
-Una vez que ingrese a **Wazuh**, tendrá acceso a múltiples recursos propios de un **SIEM** y podrá visualizar cada agente conectado, como se muestra en la siguiente imagen.
+Once you log in to **Wazuh**, you will have access to multiple resources typical of a **SIEM** and will be able to view each connected agent, as shown in the following image.
 
-Para desplegar un agente, se recomienda consultar la [documentación oficial de Wazuh](https://documentation.wazuh.com/current/deployment-options/index.html), ya que el procedimiento dependerá del equipo en el que deba instalarse.
+To deploy an agent, it is recommended to consult the [official Wazuh documentation](https://documentation.wazuh.com/current/deployment-options/index.html), as the procedure will depend on the device where it needs to be installed.
 
  <img src="https://i.imgur.com/Cgosn0H.png" height="75%" width="90%"/>
