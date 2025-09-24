@@ -55,3 +55,5 @@ Once you log in to **Wazuh**, you will have access to multiple resources typical
 To deploy an agent, it is recommended to consult the [official Wazuh documentation](https://documentation.wazuh.com/current/deployment-options/index.html), as the procedure will depend on the device where it needs to be installed.
 
  <img src="https://i.imgur.com/Cgosn0H.png" height="75%" width="90%"/>
+
+The [official **Wazuh** documentation](https://documentation.wazuh.com/current/index.html) provides detailed information about all the features and use cases of the platform.  
