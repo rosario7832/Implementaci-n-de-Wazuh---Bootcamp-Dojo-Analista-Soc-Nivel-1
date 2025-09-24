@@ -42,3 +42,11 @@ Implementación práctica de un **SIEM open source** en un entorno local con fin
 Credenciales para loguearse como administrador
    - Usuario = admin  
    - contraseña = admin
+
+ <img src="https://i.imgur.com/GYQSldS.png" height="75%" width="70%"/>
+
+Una vez que ingrese a **Wazuh**, tendrá acceso a múltiples recursos propios de un **SIEM** y podrá visualizar cada agente conectado, como se muestra en la siguiente imagen.
+
+Para desplegar un agente, se recomienda consultar la [documentación oficial de Wazuh](https://documentation.wazuh.com/current/deployment-options/index.html), ya que el procedimiento dependerá del equipo en el que deba instalarse.
+
+ <img src="https://i.imgur.com/Cgosn0H.png" height="75%" width="90%"/>
